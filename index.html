@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>HTML + CSS</title>
+    <title>DramaticDesigns | Review</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
@@ -25,12 +25,12 @@
         <label for="user-email">Email:</label>
         <input
           type="email"
-          id="uder-email"
+          id="user-email"
           name="user-email"
           placeholder="Uchiha@email.com"
           required
         />
-        <label for="dropdown" name="rating">Your Experience?</label>
+        <label for="dropdown">Your Experience?</label>
         <select id="dropdown" name="rating">
           <option value="poor">Poor</option>
           <option value="good">Good</option>
@@ -102,7 +102,7 @@
             <input
               type="text"
               id="refer-name"
-              name="referred-by"
+              name="referred-name"
               placeholder="Sasuke_Uchiha"
             />
           </div>
@@ -111,7 +111,7 @@
             <input
               type="email"
               id="refer-email"
-              name="referred-by"
+              name="referred-email"
               placeholder="Uchiha@email.com"
             />
           </div>
@@ -124,12 +124,12 @@
             rows="10"
             cols="75"
             placeholder="How can we do better next time?"
-          >
-          </textarea>
+          ></textarea>
         </fieldset>
-        <footer>
+        <footer class="form-footer">
+          <button type="submit" id="submit">Submit Review</button>
           <p>
-            Thank you so much for considering us for you project. We take these
+            Thank you so much for considering us for your project. We take these
             reviews very seriously as we continue to grow with our valued
             partners. Remember, you are not just a client, you are a partner. We
             hope we exceeded all of your expectations and that you consider us
@@ -141,7 +141,6 @@
             Contact:
             <a href="mailto:cursedgraphix@gmail.com">CursedGraphix@gmail.com</a>
           </p>
-          <button type="submit" id="submit">Submit Review</button>
         </footer>
       </form>
     </main>
