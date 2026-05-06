@@ -1,0 +1,16 @@
+body {
+  background-color: black;
+  color: hotpink;
+}
+fieldset {
+  border: 1px solid lime;
+  border-radius: 10px;
+}
+.form-footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
